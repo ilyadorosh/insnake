@@ -11,7 +11,7 @@ var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'invirto.cglsi5uydsxn.us-west-2.rds.amazonaws.com',
   user     : 'doctor',
-  password : '14021969',
+  password : '********',
   database : 'firstdb'
 });
 
