@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1 ICD-10
+    h2= dis[0].parent_code
+    #container
+      - each di in dis
+        p
+          b= di.name
+          br
+          span= di.additional_info
